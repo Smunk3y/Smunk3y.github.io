@@ -28,6 +28,10 @@
   font-family: cursive;
 }
 
+.font3{
+  font-family: 'Times New Roman', serif;
+}
+
 .smlwhitebdr{
   border-style: dashed;
   border-radius: 12px;
