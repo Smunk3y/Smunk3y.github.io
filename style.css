@@ -25,11 +25,11 @@
 }
 
 .font2{
-  font-family: cursive;
+  font-family: 'Brush Script MT', cursive;
 }
 
 .font3{
-  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-family: 'Times New Roman', serif;
 }
 
 .smlwhitebdr{
@@ -72,7 +72,7 @@
 
 
 .fontsz11{
- font-size: 22px;
+ font-size: 29px;
 }
 
 .artistpropic{
