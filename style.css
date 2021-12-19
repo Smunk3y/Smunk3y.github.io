@@ -37,8 +37,17 @@
   border-radius: 12px;
 }
 
+
+.longtrklist{
+ font-size: 18px;
+}
+
+.shorttrklist{
+ font-size: 24px;
+}
+
 .fontsz1{
- font-size: 20px;
+ font-size: 18px;
 }
 
 
