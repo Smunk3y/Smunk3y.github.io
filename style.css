@@ -37,6 +37,9 @@
   border-radius: 12px;
 }
 
+.backgroundblur{
+  backdrop-filter: blur(7px);
+}
 
 .longtrklist{
  font-size: 18px;
