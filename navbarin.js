@@ -207,7 +207,7 @@ class Header extends HTMLElement {
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-md text-center">
-          <a class="navbarbutton" href="index.html">Home</a>
+          <a class="navbarbutton" href="../index.html">Home</a>
           <span class="navbarbutton">|</span>
           <span class="dropdown">
                   <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="#">
@@ -215,12 +215,12 @@ class Header extends HTMLElement {
                       <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu backgroundblur">
-                      <li><a class="dropdowntext"  href="029.html">0-9</a></li>
-                      <li><a class="dropdowntext"  href="A2F.html">A-F</a></li>
-                      <li><a class="dropdowntext"  href="G2K.html">G-K</a></li>
-                      <li><a class="dropdowntext"  href="L2P.html">L-P</a></li>
-                      <li><a class="dropdowntext"  href="Q2U.html">Q-U</a></li>
-                      <li><a class="dropdowntext"  href="V2Z.html">V-Z</a></li>
+                      <li><a class="dropdowntext"  href="../029.html">0-9</a></li>
+                      <li><a class="dropdowntext"  href="../A2F.html">A-F</a></li>
+                      <li><a class="dropdowntext"  href="../G2K.html">G-K</a></li>
+                      <li><a class="dropdowntext"  href="../L2P.html">L-P</a></li>
+                      <li><a class="dropdowntext"  href="../Q2U.html">Q-U</a></li>
+                      <li><a class="dropdowntext"  href="../V2Z.html">V-Z</a></li>
                   </ul>
               </span>
 
@@ -232,12 +232,12 @@ class Header extends HTMLElement {
                           <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu backgroundblur">
-                          <li><a class="dropdowntext"  href="Alt029.html">0-9</a></li>
-                          <li><a class="dropdowntext"  href="AltA2F.html">A-F</a></li>
-                          <li><a class="dropdowntext"  href="AltG2K.html">G-K</a></li>
-                          <li><a class="dropdowntext"  href="AltL2P.html">L-P</a></li>
-                          <li><a class="dropdowntext"  href="AltQ2U.html">Q-U</a></li>
-                          <li><a class="dropdowntext"  href="AltV2Z.html">V-Z</a></li>
+                          <li><a class="dropdowntext"  href="../Alt029.html">0-9</a></li>
+                          <li><a class="dropdowntext"  href="../AltA2F.html">A-F</a></li>
+                          <li><a class="dropdowntext"  href="../AltG2K.html">G-K</a></li>
+                          <li><a class="dropdowntext"  href="../AltL2P.html">L-P</a></li>
+                          <li><a class="dropdowntext"  href="../AltQ2U.html">Q-U</a></li>
+                          <li><a class="dropdowntext"  href="../AltV2Z.html">V-Z</a></li>
                       </ul>
                   </span>
 
@@ -250,8 +250,8 @@ class Header extends HTMLElement {
                               <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu backgroundblur">
-                              <li><a class="dropdowntext"  href="Vinyl.html">Vinyl Collection</a></li>
-                              <li><a class="dropdowntext"  href="AlbumIdeas.html">Suggest A Album</a></li>
+                              <li><a class="dropdowntext"  href="../Vinyl.html">Vinyl Collection</a></li>
+                              <li><a class="dropdowntext"  href="../AlbumIdeas.html">Suggest A Album</a></li>
                           </ul>
                       </span>
 
