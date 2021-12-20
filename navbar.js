@@ -210,7 +210,7 @@ class Header extends HTMLElement {
           <a class="navbarbutton" href="index.html">Home</a>
           <span class="navbarbutton">|</span>
           <span class="dropdown">
-                  <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="#">
+                  <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
                       Hip Hop
                       <span class="caret"></span>
                   </a>
@@ -227,7 +227,7 @@ class Header extends HTMLElement {
               <span class="navbarbutton">|</span>
 
               <span class="dropdown">
-                      <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="#">
+                      <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
                           Rock & Other
                           <span class="caret"></span>
                       </a>
@@ -245,7 +245,7 @@ class Header extends HTMLElement {
                   <span class="navbarbutton">|</span>
 
                   <span class="dropdown">
-                          <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="#">
+                          <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
                               Extra
                               <span class="caret"></span>
                           </a>
