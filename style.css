@@ -34,7 +34,7 @@ body {
 }
 
 
-/* Removes Scrollbar */
+/* Removes Scrollbar! */
 ::-webkit-scrollbar {
   width: 0px;
 }
