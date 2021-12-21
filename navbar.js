@@ -29,6 +29,7 @@ class Header extends HTMLElement {
         color:white;
       }
 
+
       .font1{
         font-family: monospace;
       }
@@ -49,6 +50,7 @@ class Header extends HTMLElement {
       .backgroundblur{
         backdrop-filter: blur(7px);
       }
+
 
       .longtrklist{
        font-size: 18px;
