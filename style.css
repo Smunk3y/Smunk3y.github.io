@@ -78,6 +78,7 @@ body {
 
 .backgroundblur{
   -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
 }
 
 .longtrklist{
@@ -88,6 +89,10 @@ body {
  font-size: 24px;
 }
 
+.formiframe{
+  min-height: 800px;
+  max-height: 1100px;
+}
 
 .fontsz1{
  font-size: 18px;

@@ -49,6 +49,7 @@ class Header extends HTMLElement {
 
       .backgroundblur{
           -webkit-backdrop-filter: blur(7px);
+          backdrop-filter: blur(7px);
       }
 
 
