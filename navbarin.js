@@ -47,7 +47,7 @@ class Header extends HTMLElement {
       }
 
       .backgroundblur{
-        backdrop-filter: blur(7px);
+          -webkit-backdrop-filter: blur(7px);
       }
 
       .longtrklist{
