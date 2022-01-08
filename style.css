@@ -157,6 +157,14 @@ body {
   text-align: center !important;
 }
 
+.upalbums{
+  font-size: 28px;
+}
+
+.upap{
+  font-size: 31px;
+}
+
 .dropdown-menu {
   background-color: transparent;
  }
