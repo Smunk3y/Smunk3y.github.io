@@ -1,4 +1,0 @@
-Sitemap: https://smunk3y.github.io/sitemap.xml
-
-User-agent: *
-Disallow:
