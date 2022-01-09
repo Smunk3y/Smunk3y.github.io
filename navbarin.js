@@ -216,12 +216,12 @@ class Header extends HTMLElement {
                       <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu backgroundblur">
-                      <li><a class="dropdowntext"  href="../029.html">0-9</a></li>
-                      <li><a class="dropdowntext"  href="../A2F.html">A-F</a></li>
-                      <li><a class="dropdowntext"  href="../G2K.html">G-K</a></li>
-                      <li><a class="dropdowntext"  href="../L2P.html">L-P</a></li>
-                      <li><a class="dropdowntext"  href="../Q2U.html">Q-U</a></li>
-                      <li><a class="dropdowntext"  href="../V2Z.html">V-Z</a></li>
+                      <li><a class="dropdowntext"  href="../../HipHopNRnB/029/029.html">0-9</a></li>
+                      <li><a class="dropdowntext"  href="../../HipHopNRnB/A2F/A2F.html">A-F</a></li>
+                      <li><a class="dropdowntext"  href="../../HipHopNRnB/G2K/G2K.html">G-K</a></li>
+                      <li><a class="dropdowntext"  href="../../HipHopNRnB/L2P/L2P.html">L-P</a></li>
+                      <li><a class="dropdowntext"  href="../../HipHopNRnB/Q2U/Q2U.html">Q-U</a></li>
+                      <li><a class="dropdowntext"  href="../../HipHopNRnB/V2Z/V2Z.html">V-Z</a></li>
                   </ul>
               </span>
 
@@ -233,12 +233,12 @@ class Header extends HTMLElement {
                           <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu backgroundblur">
-                          <li><a class="dropdowntext"  href="../Alt029.html">0-9</a></li>
-                          <li><a class="dropdowntext"  href="../AltA2F.html">A-F</a></li>
-                          <li><a class="dropdowntext"  href="../AltG2K.html">G-K</a></li>
-                          <li><a class="dropdowntext"  href="../AltL2P.html">L-P</a></li>
-                          <li><a class="dropdowntext"  href="../AltQ2U.html">Q-U</a></li>
-                          <li><a class="dropdowntext"  href="../AltV2Z.html">V-Z</a></li>
+                          <li><a class="dropdowntext"  href="../../AltNRock/029/Alt029.html">0-9</a></li>
+                          <li><a class="dropdowntext"  href="../../AltNRock/A2F/AltA2F.html">A-F</a></li>
+                          <li><a class="dropdowntext"  href="../../AltNRock/G2K/AltG2K.html">G-K</a></li>
+                          <li><a class="dropdowntext"  href="../../AltNRock/L2P/AltL2P.html">L-P</a></li>
+                          <li><a class="dropdowntext"  href="../../AltNRock/Q2U/AltQ2U.html">Q-U</a></li>
+                          <li><a class="dropdowntext"  href="../../AltNRock/V2Z/AltV2Z.html">V-Z</a></li>
                       </ul>
                   </span>
 
@@ -251,9 +251,9 @@ class Header extends HTMLElement {
                               <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu backgroundblur">
-                              <li><a class="dropdowntext"  href="../Vinyl.html">Vinyl Collection</a></li>
-                              <li><a class="dropdowntext"  href="../AlbumIdeas.html">Suggest A Album</a></li>
-                              <li><a class="dropdowntext"  href="../Upcoming.html">Upcoming Albums</a></li>
+                              <li><a class="dropdowntext"  href="../../Vinyl.html">Vinyl Collection</a></li>
+                              <li><a class="dropdowntext"  href="../../AlbumIdeas.html">Suggest A Album</a></li>
+                              <li><a class="dropdowntext"  href="../../Upcoming.html">Upcoming Albums</a></li>
                           </ul>
                       </span>
 
