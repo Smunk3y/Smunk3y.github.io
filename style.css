@@ -139,6 +139,7 @@ body {
  font-size: 25px;
 }
 
+
 .artistpropic{
   width: 170px !important;
   height: 170px !important;
@@ -157,6 +158,10 @@ body {
 }
 
 .aas{
+  text-align: center !important;
+}
+
+!centa{
   text-align: center !important;
 }
 

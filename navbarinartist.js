@@ -252,6 +252,7 @@ class Header extends HTMLElement {
                           </a>
                           <ul class="dropdown-menu backgroundblur">
                               <li><a class="dropdowntext"  href="../../../Vinyl.html">Vinyl Collection</a></li>
+                                <li><a class="dropdowntext"  href="../../../Scale.html">The Scale!</a></li>
                               <li><a class="dropdowntext"  href="../../../AlbumIdeas.html">Suggest A Album</a></li>
                               <li><a class="dropdowntext"  href="../../../Upcoming.html">Upcoming Albums</a></li>
                           </ul>
