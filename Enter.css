@@ -46,7 +46,7 @@ h2 {
   -webkit-transition: all 500ms ease-in, all 450ms ease-in;
   -o-transition: all 500ms ease-in, all 450ms ease-in;
   transition: all 500ms ease-in, all 450ms ease-in;
-  color: #c2c2c2;
+  color:white;
   font-size: 12px;
   font-weight: 600;
   text-align: center;
@@ -56,8 +56,8 @@ h2 {
 }
 
 .button:hover {
-  border-color: #0cafeb;
-  background-color: #000000;
+  border-color:white;
+  background-color:#FFFFFF25;
   -webkit-transition: all 250ms ease-in;
   -o-transition: all 250ms ease-in;
   transition: all 250ms ease-in;
@@ -75,10 +75,10 @@ h2 {
   color: white;
 }
 
-.button.buttonhome:hover {
+/* .button.buttonhome:hover {
   border-color: white;
   font-weight: 400;
-}
+} */
 
 .section {
   height: 100%;
@@ -89,10 +89,10 @@ h2 {
 .section.header {
   padding-top: 0px;
   height: 100%;
-  background-color: transparent;
+  background-color: 111111;
   background-size: auto, cover;
   background-attachment: scroll, fixed;
-  color: #292929;
+  color: white;
 }
 
 .hero-text {
@@ -155,7 +155,7 @@ h2 {
 
 @media (max-width: 767px) {
   h1 {
-    color: #b0b0b0;
+    color: white;
     font-size: 13px;
     text-shadow: black 0px 0px 0px;
   }
@@ -211,12 +211,12 @@ h2 {
   }
   .button {
     border-style: none;
-    background-color: #0cafeb;
     -webkit-transition: all 500ms ease-in;
     -o-transition: all 500ms ease-in;
     transition: all 500ms ease-in;
-    color: white;
+    : white;
   }
+
   .section {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -379,7 +379,7 @@ a{
   font-size: 80px;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  color: #fff;
+  color: white;
   letter-spacing: -0.15vw;
   line-height: 1.05;
   text-shadow: 0px 1px 1px #000;
@@ -497,16 +497,16 @@ a{
   font-size: 30px;
   font-family: 'Raleway', sans-serif;
   font-weight: 200;
-  color: $col-primary;
+  color: white;
   border: 1px solid $col-primary;
   border-radius: $corner-radius;
   line-height: 3em;
 
   @include transition(all 0.2s ease-in);
-
+a
   &:hover {
     color: white;
-    background-color: #e60000;
+    background-color: transparent;
 
     @include transition(all 0.2s ease-out);
 
