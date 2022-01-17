@@ -210,7 +210,7 @@ class Header extends HTMLElement {
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-md text-center">
-          <a class="navbarbutton" href="index.html">Home</a>
+          <a class="navbarbutton" href="home.html">Home</a>
           <span class="navbarbutton">|</span>
           <span class="dropdown">
                   <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
