@@ -214,7 +214,7 @@ class Header extends HTMLElement {
           <span class="navbarbutton">|</span>
           <span class="dropdown">
                   <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                      Hip Hop
+                      Hip-Hop
                       <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu backgroundblur">
@@ -231,7 +231,7 @@ class Header extends HTMLElement {
 
               <span class="dropdown">
                       <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                          Rock & Other
+                          Rock/Alt
                           <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu backgroundblur">
@@ -255,6 +255,7 @@ class Header extends HTMLElement {
                           <ul class="dropdown-menu backgroundblur">
                               <li><a class="dropdowntext"  href="vinyl.html">Vinyl Collection</a></li>
                               <li><a class="dropdowntext"  href="Scale.html">The Scale!</a></li>
+                              <li><a class="dropdowntext"  href="Genre.html">Genre's</a></li>
                               <li><a class="dropdowntext"  href="AlbumIdeas.html">Suggest A Album</a></li>
                               <li><a class="dropdowntext"  href="Upcoming.html">Upcoming Albums</a></li>
                           </ul>
