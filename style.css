@@ -37,6 +37,15 @@ body {
     100% { transform: translate(5%,0) }
 }
 
+@font-face {
+  font-family: blond;
+  src:url(Blonde.ttf);
+}
+
+.blondfont{
+  font-family: blond;
+}
+
 
 /* Removes Scrollbar! */
 ::-webkit-scrollbar {
