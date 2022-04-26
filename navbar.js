@@ -244,6 +244,11 @@ class Header extends HTMLElement {
                       </ul>
                   </span>
 
+                  <span class="navbarbutton">|</span>
+
+
+                    <a class="navbarbutton" href="BigReview/homepage.html">AOTW</a>
+
 
                   <span class="navbarbutton">|</span>
 
