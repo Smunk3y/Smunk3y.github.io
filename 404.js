@@ -1,16 +1,8 @@
 var sections = [
-		{	sentence: "Everything Site"
-		},
-		{	sentence: "Music Reviews"
-		},
-		{	sentence: "Electronics Project's"
-		},
-		{	sentence: "Coding Project's"
-		},
-		{	sentence: "Cool Vinyl's"
-		},
-		{	sentence: "All Coded By Me!"
-		}
+		{	sentence: "404"
+	  },
+		{	sentence: "404 (Page Not Found)"
+	  }
 	];
 var i = 0;
 var j = 0;
@@ -18,7 +10,7 @@ var k = 0;
 var lengthSentence = 0;
 var lengthArray = sections.length;
 var forward = true;
-var beginning = "Rhys Grover's";
+var beginning = "You've Got Error";
 var currentPart = "";
 var interval = 50;
 var opening = false;
