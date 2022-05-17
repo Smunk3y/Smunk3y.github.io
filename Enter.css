@@ -220,6 +220,10 @@ h2 {
     : white;
   }
 
+  .button.buttonhome {
+    margin-top: 60px;
+  }
+
   .section {
     padding-top: 50px;
     padding-bottom: 50px;
