@@ -38,7 +38,6 @@ h2 {
 .button {
   display: inline-block;
   margin-top: 30px;
-  margin-left: 0%;
   padding: 15px 50px;
   border: 3px solid #FFFFFF;
   border-radius: 5px;
@@ -210,7 +209,11 @@ h2 {
     text-shadow: black 0px 0px 0px;
   }
   .button {
-    border-style: none;
+    /* border-style: none; */
+    border-width: 1px;
+    margin-left: 0px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
     -webkit-transition: all 500ms ease-in;
     -o-transition: all 500ms ease-in;
     transition: all 500ms ease-in;
