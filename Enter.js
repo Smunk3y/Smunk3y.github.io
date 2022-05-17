@@ -1,12 +1,13 @@
-/* -----------------------
-    GLOBALS
--------------------------*/
 var sections = [
 		{	sentence: "Music Review Site"
 		},
-		{	sentence: "Check It Out"
+		{	sentence: "Electronics Project's"
 		},
-		{	sentence: "Suggest A Ablum"
+		{	sentence: "Coding Project's"
+		},
+		{	sentence: "Cool Vinyl's"
+		},
+		{	sentence: "All Coded By Me!"
 		}
 	];
 var i = 0;
@@ -17,17 +18,14 @@ var lengthArray = sections.length;
 var forward = true;
 var beginning = "Rhys Grover's";
 var currentPart = "";
-var interval = 50; // interval letter
+var interval = 50;
 var opening = false;
-var pauseEnd = 2500; // pause end sentence
+var pauseEnd = 2500;
 
-/* -----------------------
-    TYPING
--------------------------*/
 function writing(text){
 	lengthSentence = sections[i].sentence.length;
 	var body = $("body");
-	if(!opening){ // first part
+	if(!opening){
 		setTimeout(function(){
 			if(k < beginning.length){
 				if(beginning[k] === "<"){
@@ -45,7 +43,7 @@ function writing(text){
 				writing(text);
 			}
 		},interval);
-	}else if(opening){ // sentences
+	}else if(opening){
 		setTimeout(function(){
 			interval = 50;
 			if(j === lengthSentence){
@@ -91,10 +89,6 @@ function writing(text){
 	}
 }
 
-
-/* -----------------------
-    BACKGROUND LOOP
--------------------------*/
 function rand(min, max) {
     return min + Math.random() * (max - min);
 }
@@ -103,16 +97,13 @@ function changebackground(){
     var h = rand(1, 360);
     var s = rand(80, 90);
     var l = rand(50, 60);
-    body.css({ // looping background
+    body.css({
     	"background" : "hsl(" + h + "," + s + "%,"+ l + "%)"
     });
 }
 
 $(document).ready(function(){
 
-	/*--------------------
-		TYPING
-	----------------------*/
 	var firstTimer = 1500;
 	var text = $(".jstext");
 	setTimeout(function(){
