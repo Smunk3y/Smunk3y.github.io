@@ -23,11 +23,7 @@ class Header extends HTMLElement {
         text-align: center;
       }
 
-      .navbarbutton{
-        font-family: monospace;
-        font-size: 30px;
-        color:white;
-      }
+
 
 
       .font1{
@@ -204,6 +200,41 @@ class Header extends HTMLElement {
         text-decoration: dashed underline;
       }
 
+      .navbarbutton:hover{
+        <!-- background-color:rgba(255, 255, 255, .2) !important; -->
+        text-decoration: underline !important;
+      }
+
+      .sickorange;
+        color:#cc5500 !important;
+      }
+
+
+      @font-face {
+        font-family: NavBar;
+        src:url(Koulen.ttf);
+      }
+
+
+      .navbarbutton{
+        font-family: 'NavBar', sans-serif !important;
+        font-size: 36px;
+
+        color:white !important;
+      }
+
+      .smallerfont{
+        font-size:18px !important;
+          text-decoration-style: solid;
+      }
+
+      .navbardivider{
+        margin-right:5px;
+        margin-left:5px;
+        font-size: 30px;
+        color:white !important;
+      }
+
 
       </style>
       <header>
@@ -211,11 +242,10 @@ class Header extends HTMLElement {
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-md text-center">
           <a class="navbarbutton" href="home.html">Home</a>
-          <span class="navbarbutton">|</span>
+          <span class="navbardivider">|</span>
           <span class="dropdown">
                   <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                      Hip-Hop
-                      <span class="caret"></span>
+                      Hip-Hop ▼
                   </a>
                   <ul class="dropdown-menu backgroundblur">
                       <li><a class="dropdowntext"  href="HipHopNRnB/029/029.html">0-9</a></li>
@@ -227,12 +257,11 @@ class Header extends HTMLElement {
                   </ul>
               </span>
 
-              <span class="navbarbutton">|</span>
+              <span class="navbardivider">|</span>
 
               <span class="dropdown">
                       <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                          Rock/Alt
-                          <span class="caret"></span>
+                          Rock/Alt ▼
                       </a>
                       <ul class="dropdown-menu backgroundblur">
                           <li><a class="dropdowntext"  href="AltNRock/029/Alt029.html">0-9</a></li>
@@ -244,28 +273,25 @@ class Header extends HTMLElement {
                       </ul>
                   </span>
 
-                  <span class="navbarbutton">|</span>
+                  <span class="navbardivider">|</span>
 
 
                     <a class="navbarbutton" href="homepage.html">Review's</a>
 
 
-                  <span class="navbarbutton">|</span>
+                  <span class="navbardivider">|</span>
 
                   <span class="dropdown">
                           <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                              Extra
-                              <span class="caret"></span>
+                              Extra ▼
                           </a>
                           <ul class="dropdown-menu backgroundblur">
-                              <li><a class="dropdowntext"  href="vinyl.html">Vinyl Collection</a></li>
                               <li><a class="dropdowntext"  href="Scale.html">The Scale!</a></li>
                               <li><a class="dropdowntext"  href="Genre.html">Genre's</a></li>
                               <li><a class="dropdowntext"  href="AlbumIdeas.html">Suggest A Album</a></li>
                               <li><a class="dropdowntext"  href="Upcoming.html">Upcoming Albums</a></li>
                           </ul>
                       </span>
-
         </div>
         </nav>
 

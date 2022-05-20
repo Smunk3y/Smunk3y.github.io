@@ -23,7 +23,11 @@ class Header extends HTMLElement {
         text-align: center;
       }
 
-
+      .navbarbutton{
+        font-family: monospace;
+        font-size: 30px;
+        color:white;
+      }
 
 
       .font1{
@@ -200,96 +204,65 @@ class Header extends HTMLElement {
         text-decoration: dashed underline;
       }
 
-      .navbarbutton:hover{
-        <!-- background-color:rgba(255, 255, 255, .2) !important; -->
-        text-decoration: underline !important;
-      }
-
-      .sickorange;
-        color:#cc5500 !important;
-      }
-
-
-      @font-face {
-        font-family: NavBar;
-        src:url(Koulen.ttf);
-      }
-
-
-      .navbarbutton{
-        font-family: 'NavBar', sans-serif !important;
-        font-size: 36px;
-
-        color:white !important;
-      }
-
-      .smallerfont{
-        font-size:18px !important;
-          text-decoration-style: solid;
-      }
-
-      .navbardivider{
-        margin-right:5px;
-        margin-left:5px;
-        font-size: 30px;
-        color:white !important;
-      }
-
 
       </style>
       <header>
 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-md text-center">
-          <a class="navbarbutton" href="../../home.html">Home</a>
-          <span class="navbardivider">|</span>
+          <a class="navbarbutton" href="home.html">Home</a>
+          <span class="navbarbutton">|</span>
           <span class="dropdown">
                   <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                      Hip-Hop ▼
+                      Hip-Hop
+                      <span class="caret"></span>
                   </a>
                   <ul class="dropdown-menu backgroundblur">
-                      <li><a class="dropdowntext"  href="../../HipHopNRnB/029/029.html">0-9</a></li>
-                      <li><a class="dropdowntext"  href="../../HipHopNRnB/A2F/A2F.html">A-F</a></li>
-                      <li><a class="dropdowntext"  href="../../HipHopNRnB/G2K/G2K.html">G-K</a></li>
-                      <li><a class="dropdowntext"  href="../../HipHopNRnB/L2P/L2P.html">L-P</a></li>
-                      <li><a class="dropdowntext"  href="../../HipHopNRnB/Q2U/Q2U.html">Q-U</a></li>
-                      <li><a class="dropdowntext"  href="../../HipHopNRnB/V2Z/V2Z.html">V-Z</a></li>
+                      <li><a class="dropdowntext"  href="HipHopNRnB/029/029.html">0-9</a></li>
+                      <li><a class="dropdowntext"  href="HipHopNRnB/A2F/A2F.html">A-F</a></li>
+                      <li><a class="dropdowntext"  href="HipHopNRnB/G2K/G2K.html">G-K</a></li>
+                      <li><a class="dropdowntext"  href="HipHopNRnB/L2P/L2P.html">L-P</a></li>
+                      <li><a class="dropdowntext"  href="HipHopNRnB/Q2U/Q2U.html">Q-U</a></li>
+                      <li><a class="dropdowntext"  href="HipHopNRnB/V2Z/V2Z.html">V-Z</a></li>
                   </ul>
               </span>
 
-              <span class="navbardivider">|</span>
+              <span class="navbarbutton">|</span>
 
               <span class="dropdown">
                       <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                          Rock/Alt ▼
+                          Rock/Alt
+                          <span class="caret"></span>
                       </a>
                       <ul class="dropdown-menu backgroundblur">
-                          <li><a class="dropdowntext"  href="../../AltNRock/029/Alt029.html">0-9</a></li>
-                          <li><a class="dropdowntext"  href="../../AltNRock/A2F/AltA2F.html">A-F</a></li>
-                          <li><a class="dropdowntext"  href="../../AltNRock/G2K/AltG2K.html">G-K</a></li>
-                          <li><a class="dropdowntext"  href="../../AltNRock/L2P/AltL2P.html">L-P</a></li>
-                          <li><a class="dropdowntext"  href="../../AltNRock/Q2U/AltQ2U.html">Q-U</a></li>
-                          <li><a class="dropdowntext"  href="../../AltNRock/V2Z/AltV2Z.html">V-Z</a></li>
+                          <li><a class="dropdowntext"  href="AltNRock/029/Alt029.html">0-9</a></li>
+                          <li><a class="dropdowntext"  href="AltNRock/A2F/AltA2F.html">A-F</a></li>
+                          <li><a class="dropdowntext"  href="AltNRock/G2K/AltG2K.html">G-K</a></li>
+                          <li><a class="dropdowntext"  href="AltNRock/L2P/AltL2P.html">L-P</a></li>
+                          <li><a class="dropdowntext"  href="AltNRock/Q2U/AltQ2U.html">Q-U</a></li>
+                          <li><a class="dropdowntext"  href="AltNRock/V2Z/AltV2Z.html">V-Z</a></li>
                       </ul>
                   </span>
 
+                  <span class="navbarbutton">|</span>
 
-                  <span class="navbardivider">|</span>
+
+                    <a class="navbarbutton" href="BigReview/homepage.html">AOTW</a>
 
 
-                    <a class="navbarbutton" href="../../homepage.html">Review's</a>
-
-                    <span class="navbardivider">|</span>
+                  <span class="navbarbutton">|</span>
 
                   <span class="dropdown">
                           <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
-                              Extra ▼
+                              Extra
+                              <span class="caret"></span>
                           </a>
                           <ul class="dropdown-menu backgroundblur">
-                              <li><a class="dropdowntext"  href="../../Scale.html">The Scale!</a></li>
-                              <li><a class="dropdowntext"  href="../../Genre.html">Genre's</a></li>
-                              <li><a class="dropdowntext"  href="../../AlbumIdeas.html">Suggest A Album</a></li>
-                              <li><a class="dropdowntext"  href="../../Upcoming.html">Upcoming Albums</a></li>
+                              <li><a class="dropdowntext"  href="vinyl.html">Vinyl Collection</a></li>
+                              <li><a class="dropdowntext"  href="Scale.html">The Scale!</a></li>
+                              <li><a class="dropdowntext"  href="Genre.html">Genre's</a></li>
+                              <li><a class="dropdowntext"  href="AlbumIdeas.html">Suggest A Album</a></li>
+                              <li><a class="dropdowntext"  href="Upcoming.html">Upcoming Albums</a></li>
                           </ul>
                       </span>
 
