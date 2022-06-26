@@ -367,6 +367,20 @@ font-family: 'Lato', sans-serif;
   margin-bottom: 25px;
 }
 
+.numbasquare3{
+  width: 150px;
+  height: 57px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+
 .topsongssquare{
   width: 25%;
   height: auto;
