@@ -1,17 +1,15 @@
 var sections = [
-		// {	sentence: "Everything Site"
-		// },
-		// {	sentence: "Music Reviews"
-		// },
-		// {	sentence: "Electronics Project's"
-		// },
-		// {	sentence: "Coding Project's"
-		// },
-		// {	sentence: "Cool Vinyl's"
-		// },
-		// {	sentence: "All Coded By Me!"
-		// }
-		{	sentence: "Site Is Under Construction"
+		{	sentence: "Everything Site"
+		},
+		{	sentence: "Music Reviews"
+		},
+		{	sentence: "Electronics Project's"
+		},
+		{	sentence: "Coding Project's"
+		},
+		{	sentence: "Cool Vinyl's"
+		},
+		{	sentence: "All Coded/Made By Me!"
 		}
 	];
 var i = 0;

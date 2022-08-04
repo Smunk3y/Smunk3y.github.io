@@ -276,10 +276,10 @@ class Header extends HTMLElement {
                   <span class="navbardivider">|</span>
 
 
-                    <a class="navbarbutton" href="homepage.html">Review's</a>
+                    <a class="navbarbutton" href="Review.html">Review's</a>
 
 
-                  <span class="navbardivider">|</span>
+                  <!-- <span class="navbardivider">|</span>
 
                   <span class="dropdown">
                           <a class="dropdown-toggle navbarbutton " data-toggle="dropdown" href="">
@@ -291,7 +291,7 @@ class Header extends HTMLElement {
                               <li><a class="dropdowntext"  href="AlbumIdeas.html">Suggest A Album</a></li>
                               <li><a class="dropdowntext"  href="Upcoming.html">Upcoming Albums</a></li>
                           </ul>
-                      </span>
+                      </span> -->
         </div>
         </nav>
 

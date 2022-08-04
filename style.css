@@ -8,6 +8,10 @@ body {
   overflow-x: hidden;
 }
 
+.linethrough{
+  text-decoration: line-through !important;
+}
+
 .bg {
   position: fixed;
   top: -50%;

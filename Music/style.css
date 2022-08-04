@@ -188,6 +188,10 @@ body {
  font-size: 16px;
 }
 
+.fontsz10{
+ font-size: 20px;
+}
+
 .fontsz11{
  font-size: 25px;
 }
@@ -368,8 +372,8 @@ font-family: 'Lato', sans-serif;
 }
 
 .numbasquare3{
-  width: 150px;
-  height: 57px;
+  width: 110px;
+  height: 40px;
   border-style: solid;
   border-color: white;
   border-width: 2px;
@@ -378,6 +382,13 @@ font-family: 'Lato', sans-serif;
   margin-right: auto;
   margin-top: 20px;
   margin-bottom: 8px;
+  font-size: 1px !important;
+}
+
+.numbafontsingle{
+font-family: 'Numba', sans-serif;
+font-size: 24px;
+  display: block;
 }
 
 
@@ -392,4 +403,47 @@ font-family: 'Lato', sans-serif;
   margin-left: 20px;
   margin-top: 15px;
   margin-bottom: 10px;
+}
+
+.songthingbob{
+  width: 100%;
+  height: auto;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  margin-right: 20px;
+}
+
+.numbasquare5{
+  width: 150px;
+  height: 57px;
+  border-style: solid;
+  border-color: white;
+  border-width: 2px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+.testimagebeb{
+  width: 60%;
+  height: 60%;
+}
+
+.somespaceuotop{
+  margin-top: 6px;
+
+}
+
+.linethrough{
+  text-decoration: line-through !important;
+}
+
+.bestnewmusic {
+  color: red!important;
+  border-color: red!important;
+  text-decoration: none !important;
+  text-decoration-color: red !important;
 }

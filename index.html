@@ -75,25 +75,50 @@
 
               </div>
 
-              <!-- <div class=" aas">
+              <div class=" aas">
 
               <div class="w-hidden-small w-hidden-tiny">
 
 
                       <div class="">
-                         <a class="buttonhome button" href="Music/home.html">MUSIC REVIEWS</a>
-                         <a class=" button" href="Electronics/home.html">ELECTRONICS</a>
+                         <a class=" button" href="">MUSIC REVIEWS
+                         <p id="timerthing"></p></a>
+
+                         <script>
+
+                          var countDownDate = new Date("Aug 7, 2022 15:00:00").getTime();
+                          var x = setInterval(function() {
+                          var now = new Date().getTime();
+                          var distance = countDownDate - now;
+
+                            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                            document.getElementById("timerthing").innerHTML = days + "d " + hours + "h "
+                            + minutes + "m " + seconds + "s ";
+
+                            if (distance < 0) {
+                              clearInterval(x);
+                              document.getElementById("timerthing").innerHTML = "EXPIRED";
+                            }
+                          }, 1000);
+                          </script>
+
+
+                         <!-- <a class=" button linethrough" href="Electronics/home.html">ELECTRONICS</a> -->
                       </div>
 
-                      <div class="">
-                        <a class=" button" href="Code/home.html">CODING</a>
-                        <a class=" button" href="Vinyl/home.html">VINYL</a>
-                      </div>
+                      <!-- <div class="">
+                        <a class=" button linethrough" href="Code/home.html">CODING</a>
+                        <a class=" button linethrough" href="Vinyl/home.html">VINYL</a>
+                      </div> -->
 
                       </div>
 
 
-                  </div> -->
+                  </div>
                   </div>
           </div>
 
