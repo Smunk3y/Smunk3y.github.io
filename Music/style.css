@@ -86,7 +86,10 @@ body {
   color:white;
 }
 
-
+.exespage{
+  font-family: 'Numba', sans-serif !important;
+  text-align: center;
+}
 
 
 
@@ -196,6 +199,22 @@ body {
  font-size: 25px;
 }
 
+.fontsz12{
+ font-size: 13px;
+}
+
+.fontsz14{
+ font-size: 10px;
+}
+
+.fontsz13{
+ font-size: 60px;
+}
+
+.fontsz15{
+ font-size: 15px;
+}
+
 .artistname{
  font-size: 48px !important;
 }
@@ -210,6 +229,10 @@ body {
   height: 170px !important;
   border-radius: 35px;
   transition: border-radius 1s ease-out 100ms;
+  object-fit:cover;
+}
+
+.crop{
   object-fit:cover;
 }
 
@@ -381,7 +404,7 @@ font-family: 'Lato', sans-serif;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
   font-size: 1px !important;
 }
 
@@ -435,6 +458,10 @@ font-size: 24px;
 .somespaceuotop{
   margin-top: 6px;
 
+}
+
+.leftbaby{
+  float: left;
 }
 
 .linethrough{
